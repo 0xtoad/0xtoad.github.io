@@ -1,11 +1,8 @@
 ---
-title: Yet another sec blog
+title: Another sec blog
 ---
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post }}
-    </li>
+    {{ post }}
   {% endfor %}
 </ul>

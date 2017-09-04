@@ -5,7 +5,7 @@ title: Yet another sec blog
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+      {{ post }}
     </li>
   {% endfor %}
 </ul>

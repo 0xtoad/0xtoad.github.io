@@ -1,5 +1,4 @@
 ---
-layout: post
 date: 2017-09-04 14:15:00
 category: general
 title: Hello World '

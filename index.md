@@ -1,8 +1,10 @@
 ---
 title: Another sec blog
+layout: default
 ---
 <ul>
   {% for post in site.posts %}
-    {{ post }}
+    {{ post.content | truncatewords: 50 }}
+    <br><br>
+    <a href="{{ post.url }}">&emsp;See the rest</a>
   {% endfor %}
-</ul>

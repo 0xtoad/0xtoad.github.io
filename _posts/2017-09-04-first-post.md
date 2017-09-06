@@ -2,6 +2,7 @@
 date: 2017-09-04 14:15:00
 category: general
 title: Hello World '
+layout: defaul
 ---
 
 # Neque porro quisquam est qui d

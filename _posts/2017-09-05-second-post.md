@@ -2,6 +2,7 @@
 date: 2017-09-05 09:15:00
 category: general
 title: Hello World 2
+layout: default
 ---
 
 # Neque porro quisquam est qui

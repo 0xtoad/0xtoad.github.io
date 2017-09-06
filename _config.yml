@@ -1,3 +1,17 @@
 title: 0xToad - Another Sec Blog
-show_downloads: false
 theme: jekyll-theme-midnight
+show_downloads: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
+include:
+  - _pages
+
+languages:
+  - en
+
+default_lang: en

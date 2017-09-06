@@ -4,8 +4,15 @@
   {% include head.html %}
 
   <body>
-    {% include header.html %}
+    <div class="wrapper">
 
-    {{ content }}
+      <section>
+        {% include header.html %}
+
+        {{ content }}
+      </section>
+
+    </div>
   </body>
+
 </html>
